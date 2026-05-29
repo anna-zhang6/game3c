@@ -21,7 +21,7 @@ class Load extends Phaser.Scene {
         });
 
         // ── Character atlas (TexturePacker XML format) ───────────────────────────
-        this.load.atlas(
+        this.load.atlasXML(
             'myAtlas',
             'assets/spritesheet-characters-double.png',
             'assets/spritesheet-characters-double.xml'

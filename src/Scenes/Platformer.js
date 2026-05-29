@@ -194,8 +194,7 @@ class Platformer extends Phaser.Scene {
     }
 
     createFoodItems() {
-        // physics.add.group ensures Phaser's overlap system iterates children correctly
-        this.foods = this.physics.add.group();
+        this.foods = this.add.group();
         const layer = this.map.getObjectLayer('food');
         if (!layer) return;
 
@@ -213,7 +212,7 @@ class Platformer extends Phaser.Scene {
     }
 
     createPowerupItems() {
-        this.powerups = this.physics.add.group();
+        this.powerups = this.add.group();
         const layer = this.map.getObjectLayer('powerups');
         if (!layer) return;
 
@@ -231,7 +230,7 @@ class Platformer extends Phaser.Scene {
     }
 
     createSlowdownItems() {
-        this.slowdowns = this.physics.add.group();
+        this.slowdowns = this.add.group();
         const layer = this.map.getObjectLayer('slowdowns');
         if (!layer) return;
 
@@ -251,7 +250,7 @@ class Platformer extends Phaser.Scene {
     // Goal zones are invisible — we still need a physics body for overlap.
     // Using a transparent sprite is the simplest approach for a static-body zone.
     createGoalZones() {
-        this.goals = this.physics.add.group();
+        this.goals = this.add.group();
         const layer = this.map.getObjectLayer('goal');
         if (!layer) return;
 
