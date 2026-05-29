@@ -1,0 +1,75 @@
+{
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "#tilemap_packed": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "/Users/annazhang/cmpm120/Pathfinder/assets/tiny-town-tileset.tmx": {
+            "scale": 1.29,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 319.7674418604651,
+                "y": 199.99999999999994
+            }
+        },
+        "/Users/annazhang/cmpm120/Pathfinder/assets/tiny-town-tileset.tmx#kenney-tiny-town": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "/Users/annazhang/cmpm120/PlatformImprovement/assets/platformer-level-1.tmx": {
+            "scale": 0.92,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 328.804347826087,
+                "y": 264.1304347826087
+            }
+        },
+        "/Users/annazhang/cmpm120/PlatformImprovement/assets/platformer-level-1.tmx#kenny_tilemap_packed": {
+            "scaleInDock": 1
+        },
+        "Game3.tmx": {
+            "scale": 1.65,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 2114.848484848485,
+                "y": 189.0909090909091
+            }
+        },
+        "Game3.tmx#tilemap_packed": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "frame.defaultDuration": 150,
+    "last.exportedFilePath": "/Users/annazhang/cmpm120/Game3/assets",
+    "last.imagePath": "/Users/annazhang/cmpm120/Game3/assets",
+    "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 18,
+    "map.tileWidth": 18,
+    "map.width": 120,
+    "openFiles": [
+        "Game3.tmx",
+        "/Users/annazhang/cmpm120/Pathfinder/assets/tiny-town-tileset.tmx"
+    ],
+    "project": "Game3.tiled-project",
+    "property.type": "bool",
+    "recentFiles": [
+        "Game3.tmx",
+        "/Users/annazhang/cmpm120/Pathfinder/assets/tiny-town-tileset.tmx",
+        "/Users/annazhang/cmpm120/PlatformImprovement/assets/platformer-level-1.tmx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.tileSize": {
+        "height": 18,
+        "width": 18
+    }
+}
